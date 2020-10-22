@@ -8,13 +8,13 @@ canvas.width = window.innerWidth;
 canvas.height = window.innerHeight;
 
 // Base settings
-ctx.strokeStyle = '#BADA55'; // Drawing requires a color to start with
+ctx.strokeStyle = '#BADA55'; // Requires a color to start with
 ctx.lineJoin = 'round'; // Shape of lines meeting
 ctx.lineCap = 'round'; // Shape of the line
 ctx.lineWidth = 20; // Line
 ctx.globalCompositeOperation = 'multiply'; // Layers overlapping blen into each other
 
-// Dummy variables
+// Init variables
 let isDrawing = false; // So it only draws when the mouse btn is held down (true)
 let lastX = 0;
 let lastY = 0;
